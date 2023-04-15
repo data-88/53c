@@ -2,6 +2,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 module.exports = {
+  darkMode: 'class',
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontSize: {
@@ -89,20 +90,21 @@ module.exports = {
         screens: "url('/path-to/image.png')",
       }),
       colors: {
-        black: "#141521",
+        black: "#222222",
        
         accent: {
-         50: "#EBEDFF",
-      100: "#D6DAFF",
-      200: "#A8B1FF",
-      300: "#808CFF",
-      400: "#5263FF",
-      500: "#283CFF",
-      600: "#0017EB",
-      700: "#0012B3",
-      800: "#000C75",
-      900: "#00063D"
-        },
+          50: "#333333",
+          100: "#444",
+          200: "#555",
+          300: "#666",
+          400: "#777",
+          500: "#888",
+          600: "#999",
+          700: "#999",
+          800: "#999",
+          900: "#999"
+        }, 
+        
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
