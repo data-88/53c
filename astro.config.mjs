@@ -6,6 +6,6 @@ import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
-   site: 'https://53c.co.za',
+   site: 'https://darklogic.co.za',
   integrations: [tailwind(), image(), compress(), partytown(), sitemap()]
 });
